@@ -56,5 +56,5 @@ LIMIT 10;
 
 SELECT city, product, SUM(revenue_sar) as revenue
 FROM sales_clean
-GROUP BY city, product
+GROUP BY city, producta
 ORDER BY city, revenue DESC;
