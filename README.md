@@ -1,4 +1,4 @@
-🚀 Retail Sales Analytics | 100K+ Transactions | Saudi Market Intelligence
+[🚀 Retail Sales Analytics | 100K+ Transactions | Saudi Market Intelligence
 <p align="center"> <img src="https://img.shields.io/badge/Data%20Size-105K%2B%20Rows-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/SQL-Advanced-success?style=for-the-badge"/> <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge"/> <img src="https://img.shields.io/badge/Python-Data%20Cleaning-orange?style=for-the-badge"/> </p>
 🔥 The Problem
 
@@ -84,3 +84,4 @@ Real-time dashboard integration
 
 Mohammed Saihan
 Data Analyst | SQL • Power BI • Python
+](https://github.com/MohammedSaihan/saudi-retail-mis-system)
