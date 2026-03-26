@@ -1,87 +1,90 @@
-[🚀 Retail Sales Analytics | 100K+ Transactions | Saudi Market Intelligence
-<p align="center"> <img src="https://img.shields.io/badge/Data%20Size-105K%2B%20Rows-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/SQL-Advanced-success?style=for-the-badge"/> <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge"/> <img src="https://img.shields.io/badge/Python-Data%20Cleaning-orange?style=for-the-badge"/> </p>
-🔥 The Problem
+🚀 Retail Sales & Inventory Analytics (Saudi Market)
+📌 Project Overview
 
-Businesses collect data… but don’t know what to do with it.
+This project analyzes 105,000+ retail transactions across multiple cities in Saudi Arabia to uncover business insights, customer behavior, and revenue patterns.
 
-This project answers:
+The goal is simple:
+→ Turn raw transactional data into decision-making insights that a business can actually use.
 
-Where is revenue actually coming from?
-Which products deserve more investment?
-Are customers coming back or churning?
-📊 Project Snapshot
-Metric	Value
-Total Rows	105,000+
-Cities	10
-Products	30
-Invoices	27,343
+📊 Dataset Summary
+Rows: 105,000+
+Cities: 10
+Products: 30
+Invoices: 27,343
+Fields:
+invoice_id
+date
+customer_id
+product
+quantity
+unit_price_sar
+city
 ⚙️ Tech Stack
-<p align="center"> <img src="https://skillicons.dev/icons?i=python,mysql" /> </p>
-SQL (MySQL) → Core analysis
-Python (Pandas, NumPy) → Data cleaning
-Power BI → Dashboard storytelling
-🧠 Data Workflow (Real Analyst Thinking)
-Raw Data → Cleaning → SQL Analysis → Business Insights → Dashboard → Decision Making
-✔️ Step 1: Data Cleaning
-Removed null & invalid values
-Standardized date formats
-Removed negative transactions
-Created revenue column
-✔️ Step 2: SQL Analysis
-Revenue trends (MoM growth)
-Top-performing products
-Customer segmentation
-City-wise performance
-✔️ Step 3: Visualization
-Built interactive Power BI dashboard
-KPI tracking + filters
-Business-friendly layout
-📈 Key Business Insights (REAL VALUE)
-📍 Top 3 cities contribute majority of revenue → focus expansion here
-🛒 Top 20% products generate ~60–70% revenue (Pareto effect)
-🔁 Repeat customers = higher profit margin → retention matters
-📅 Specific weekdays dominate sales → optimize campaigns
-💡 Business Recommendations
-Increase stock for top-performing SKUs
-Run targeted campaigns on peak days
-Focus retention strategies on repeat customers
-Expand operations in high-performing cities
-📊 Dashboard Preview
-<p align="center"> <img src="YOUR_GIF_OR_IMAGE_HERE" width="700"/> </p>
+SQL (MySQL) → Data extraction & analysis
+Python (Pandas, NumPy) → Data cleaning & preprocessing
+Power BI → Dashboard & visualization
+Excel → Initial exploration
+🧹 Data Cleaning & Preparation
+Removed null and invalid entries
+Standardized data formats (dates, prices)
+Filtered negative and incorrect values
+Created calculated columns:
+Revenue = quantity × unit_price_sar
+Ensured dataset consistency for analysis
+📈 Key Business Questions Solved
+1. 💰 Revenue Analysis
+What is the total revenue generated?
+Monthly revenue trends (MoM growth)
+Which cities contribute the most revenue?
+2. 🛍️ Product Performance
+Top-selling products by revenue
+Low-performing products
+Product contribution %
+3. 👥 Customer Insights
+New vs Repeat customers
+Customer purchase patterns
+Order frequency analysis
+4. 📅 Time-Based Analysis
+Revenue by day of week
+Peak sales days
+Seasonal trends
+🔥 Key Insights
+📍 Certain cities drive the majority of revenue, indicating strong regional demand
+🛒 A small number of products contribute to a large share of total revenue (Pareto effect)
+🔁 Repeat customers generate higher long-term value
+📅 Sales peak on specific weekdays → opportunity for targeted promotions
+📊 Dashboard Features (Power BI)
+KPI Cards (Total Revenue, Orders, AOV)
+Monthly Revenue Trend (MoM % Growth)
+City-wise Revenue Distribution
+Product Performance Breakdown
+Customer Segmentation (New vs Repeat)
+Interactive filters (City, Product, Date)
+📷 Dashboard Preview
 
-👉 Tip: Replace with your dashboard GIF — this is your conversion weapon
+(Add your screenshot or GIF here)
 
-🎯 KPI Metrics Tracked
-Total Revenue
-Total Orders
-Average Order Value (AOV)
-Monthly Growth %
-Product Contribution %
-🔍 Sample SQL Insight
-SELECT 
-    city,
-    ROUND(SUM(quantity * unit_price_sar),2) AS revenue
-FROM sales
-GROUP BY city
-ORDER BY revenue DESC;
-📢 LinkedIn Impact Strategy
+📌 Business Impact
 
-This project is part of my:
-👉 30 Days SQL + Power BI Challenge
+This analysis can help businesses:
 
-Daily insights
-Real business problems
-Public learning → recruiter visibility
-🔗 Live Proof
-📂 GitHub Repo: (add link)
-🎥 Dashboard Video: (add LinkedIn link)
-🌐 Portfolio: (your website)
+Optimize inventory planning
+Focus on high-performing products
+Target high-value cities
+Improve customer retention strategies
+🧠 What I Learned
+Handling large datasets (100k+ rows) efficiently
+Writing optimized SQL queries for business insights
+Building real-world dashboards
+Translating data into actionable insights
+🔗 Project Links
+📂 GitHub Repo: (your repo link)
+📊 Dashboard Video: (your LinkedIn/video link)
 🚀 Future Improvements
-Sales Forecasting (Time Series)
-Customer Lifetime Value (CLV)
-Real-time dashboard integration
-👨‍💻 About Me
+Add predictive sales forecasting
+Implement customer lifetime value (CLV)
+Integrate real-time data pipeline
+👨‍💻 Author
 
 Mohammed Saihan
 Data Analyst | SQL • Power BI • Python
-](https://github.com/MohammedSaihan/saudi-retail-mis-system)
