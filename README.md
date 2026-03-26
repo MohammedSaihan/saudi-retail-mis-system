@@ -1,4 +1,7 @@
 🚀 Retail Sales & Inventory Analytics (Saudi Market)
+
+<p align="center"> <img src="https://img.shields.io/badge/Data%20Size-105K%2B%20Rows-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/SQL-Advanced-success?style=for-the-badge"/> <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge"/> <img src="https://img.shields.io/badge/Python-Data%20Cleaning-orange?style=for-the-badge"/> </p>
+
 📌 Project Overview
 
 This project analyzes 105,000+ retail transactions across multiple cities in Saudi Arabia to uncover business insights, customer behavior, and revenue patterns.
